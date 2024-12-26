@@ -1,0 +1,12 @@
+.root {
+    -fx-background-image: url('/images/anaekranarkaplani.png');
+    -fx-background-size: cover; /* Resmi ekran boyutuna göre ölçeklendir */
+    -fx-background-position: center center; /* Resmi ortala */
+    -fx-background-repeat: no-repeat; /* Resmin tekrar etmesini engelle */
+}
+
+/* Diğer stiller */
+.button {
+    -fx-background-color: #17b42a;
+    -fx-font-size: 16px;
+}

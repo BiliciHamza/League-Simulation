@@ -1,0 +1,20 @@
+
+.button {
+    -fx-background-color: #1dcc75;
+    -fx-border-color: #07964f;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 2);
+    -fx-text-fill: #000000;
+    -fx-font-size: 19px;
+    -fx-cursor: default;
+    -fx-padding: 5px 10px;
+}
+
+/* Hover durumu (üzerine gelince) */
+.button:hover {
+    -fx-background-color: #0f7127;
+    -fx-border-color: #222222;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 8, 0, 0, 3);
+}
